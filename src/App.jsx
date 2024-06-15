@@ -28,7 +28,7 @@ const siteProps = {
   title: "Full Stack Web Developer and Programmer",
   email: "kushalbansal112@gmail.com",
   gitHub: "kushal7201",
-  instagram: "",
+  instagram: "__kushal112__",
   linkedIn: "kushalbansal112",
   medium: "",
   twitter: "",

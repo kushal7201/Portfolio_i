@@ -24,19 +24,29 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm an IT student currently studying at Indian Institute of Information Technology Allahabad";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "C/C++",
+  "Python",
+  "Javascript",
+  "ReactJs",
+  "Flask",
+  "Git",
+  "Github",
+  "HTML",
+  "CSS",
+  "Node.js",
+  "jQuery",
+  "Linux",
+  "MySQL",
+  "REST API",
+  "Figma",
+  "Java",
 ];
 
 /**
@@ -45,11 +55,11 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "As a full stack web developer, I have experience working with both front-end and back-end technologies. I enjoy building responsive and interactive user interfaces using HTML, CSS, and JavaScript. On the server-side, I am proficient in languages like Node.js and Python, and I have experience working with databases such as MySQL and MongoDB. I am passionate about creating efficient and scalable web applications that provide a seamless user experience. Feel free to reach out to me for any web development projects or collaborations!";
 
 const About = () => {
   return (
-    <section className="padding" id="about">
+    <section className="padding black" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{

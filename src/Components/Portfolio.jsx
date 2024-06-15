@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "SentryVision 🔗",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      " Developed and implemented real-time video anomaly detection system using AI and ML, leading to a 90% reduction in response time to public safety incidents.",
+    url: "https://github.com/kushal7201/SentryVision",
   },
   {
-    title: "Web Development for Beginners",
+    title: "SustainHub 🔗",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Designed and developed web platform for public facility issue reporting and tracking, contributing to increase in issue resolution efficiency.",
+    url: "https://github.com/kushal7201/Sustain_Hub_GSC",
   },
   {
-    title: "My Resume Site",
+    title: "Movify 🔗",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a movie recommendation system that leverages the concept of blends within a group, enabling users to discover movies based on interests and preferences.",
+    url: "https://github.com/kushal7201/Hackout-project",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Muskaan 🔗",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created an app design for needy and donor interaction under Out-of-Context '23 Design Hackathon held at IIIT-Allahabad from 29th September till 1st",
+    url: "https://devfolio.co/projects/muskaan-2a89",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -68,10 +68,10 @@ const Portfolio = () => {
             alt={imageAltText}
           />
         </div>
-        <div className="container">
+        <div className="container project-box">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <a className="purple" href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
